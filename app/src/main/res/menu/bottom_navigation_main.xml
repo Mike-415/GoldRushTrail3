@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_list"
+        android:enabled="true"
+        android:title="@string/list"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_map"
+        android:enabled="true"
+        android:title="@string/map"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_tours"
+        android:enabled="true"
+        android:title="@string/tours"
+        app:showAsAction="ifRoom" />
+</menu>
+
+<!--
+How to Get Strings to The 'strings.xml' File Without Copy & Paste (Extract String Resource):
+    1. Hold Alt(option) + enter, just like when you want to import an unknown class
+    2. Make adjustments in the dialog box
+-->
